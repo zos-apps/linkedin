@@ -34,7 +34,26 @@
       "Network connections",
       "Job search",
       "Messaging"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/linkedin"
+    },
+    "featured": false,
+    "tags": [
+      "social",
+      "communication",
+      "linkedin"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/linkedin/issues",
+    "changelog": "https://github.com/zos-apps/linkedin/releases"
   },
   "scripts": {
     "build": "tsup",
