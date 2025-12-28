@@ -20,7 +20,21 @@
         "height": 650
       },
       "resizable": true
-    }
+    },
+    "about": "Professional networking and career development platform.",
+    "help": [
+      "Update your profile",
+      "Connect with professionals",
+      "Search for jobs"
+    ],
+    "docs": "https://zos-apps.github.io/linkedin",
+    "site": "https://github.com/zos-apps/linkedin",
+    "features": [
+      "Profile management",
+      "Network connections",
+      "Job search",
+      "Messaging"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +67,13 @@
     "linkedin",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
