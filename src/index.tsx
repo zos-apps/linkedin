@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface LinkedInProps {
   onClose: () => void;
@@ -21,7 +21,7 @@ const mockPosts: Post[] = [
   { id: '3', author: 'Emily Rodriguez', role: 'Product Manager at BigTech', avatar: '👩‍🎓', content: '5 lessons I learned after 10 years in product:\n\n1. Listen more than you speak\n2. Data informs, it doesn\'t decide\n3. Build relationships first\n4. Ship fast, iterate faster\n5. Stay curious', likes: 1247, comments: 89, time: '1d' },
 ];
 
-const LinkedIn: React.FC<LinkedInProps> = ({ onClose }) => {
+const LinkedIn: React.FC<LinkedInProps> = ({ onClose: _onClose }) => {
   const [posts] = useState(mockPosts);
   const [tab, setTab] = useState<'feed' | 'network' | 'jobs' | 'messages'>('feed');
 
